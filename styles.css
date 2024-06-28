@@ -10,6 +10,7 @@
     padding: 10px;
 }
 .container .to-do{
+    width: 80%;
     max-width: 545px;
     margin: 100px auto;
     background: #fff;
@@ -39,7 +40,7 @@
     margin-bottom: 25px;
 }
 .container .to-do .row input{
-    flex: 1;
+    width: 80%;
     border: none;
     outline: none;
     background: transparent;
@@ -47,6 +48,9 @@
     font-size: 16px;
 }
 .container .to-do button{
+    width: 20%;
+    display: flex;
+    justify-content: center;
     border: none;
     outline: none;
     padding: 16px 50px;
@@ -102,4 +106,27 @@ ul li span{
 }
 ul li span:hover{
     background: #f3f3f3;
+}
+
+@media screen and (max-width: 500px){
+    .container .to-do .row{
+        padding-left: 10px;
+        font-size: 15px;
+    }
+    .container .row input{
+        width: 85%;
+    }
+    .container .row button{
+        width: 15%;
+        padding: 10px 35px
+    }
+    .container ul li{
+        font-size: 16px;
+    }
+    .container ul li::before{
+        width: 20px;
+        height: 20px;
+        top: 14px;
+        left: 20px;
+    }
 }
