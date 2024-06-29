@@ -10,7 +10,7 @@
     padding: 10px;
 }
 .container .to-do{
-    width: 80%;
+    width: 90%;
     max-width: 545px;
     margin: 100px auto;
     background: #fff;
@@ -128,5 +128,8 @@ ul li span:hover{
         height: 20px;
         top: 14px;
         left: 20px;
+    }
+    .container input{
+        padding: 10px 5px !important;
     }
 }
