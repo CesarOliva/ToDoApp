@@ -133,6 +133,6 @@ ul li span:hover{
         padding: 10px 5px !important;
     }
     .container ul li{
-        padding: 12px 8px 12px 35px;
+        padding: 12px 8px 12px 35px !important;
     }
 }
